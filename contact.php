@@ -12,7 +12,7 @@ if (isset($_POST['save']) && 'contact' == $_POST['save']) {
         'X-Mailer: PHP/' . phpversion();
 
     // set up email
-    $msg = "New contact form submission!\nName: " . $name . "\nEmail: " . $email . "\nPhone: " . $phone . "\n\nMessage: " . $message;
+    $msg = "New contact form submission!\nName: " . $name . "\nEmail: " . $email . "\nPhone: " . $phone . "\n\nMessage:\n\n" . $message;
     $msg = wordwrap($msg, 70);
     $sent = mail('contact@phpessex.com', 'PHP Essex Website Enquiry', $msg, $headers, '-fcontact@phpessex.com');
 
@@ -52,6 +52,7 @@ if (isset($_POST['save']) && 'contact' == $_POST['save']) {
                         <a href="https://phpessex.slack.com/" class="btn-social btn-outline"><i class="fa fa-fw fa-slack" aria-hidden="true"></i></a>
                         <a href="https://twitter.com/phpessex" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter" aria-hidden="true"></i></a>
                         <a href="https://github.com/phpessex" class="btn-social btn-outline"><i class="fa fa-fw fa-github" aria-hidden="true"></i></a>
+                        <a href="https://www.meetup.com/PHP-Essex" class="btn-social btn-outline"><i class="fa fa-fw fa-meetup" aria-hidden="true"></i></a>
                     </div>
                 </div>
                 <div class="col-md-3">

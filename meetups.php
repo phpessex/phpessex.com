@@ -15,7 +15,7 @@ require_once('partials/nav.php');
                     <!--<img class="img-responsive img-border" src="img/img1.jpg" alt="">-->
                     <h2>First Meetup
                         <br>
-                        <small>January TBD</small>
+                        <small>7:30pm | Wednesday 18th January 2017</small>
                     </h2>
                     <p>This meetup is still being organised, the date, time and location are still to be confirmed.
                         We are hoping that the first meetup will be in January or February. We hope to find a date and

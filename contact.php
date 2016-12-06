@@ -8,11 +8,13 @@ if (isset($_POST['save']) && 'contact' == $_POST['save']) {
     $email   = $_POST['email'];
     $phone   = $_POST['phone'];
     $message = $_POST['message'];
+    $headers = 'From: contact@phpessex.com' . "\r\n" . 'Reply-To: contact@phpessex.com' . "\r\n" .
+        'X-Mailer: PHP/' . phpversion();
 
     // set up email
     $msg = "New contact form submission!\nName: " . $name . "\nEmail: " . $email . "\nPhone: " . $phone . "\nEmail: " . $email;
     $msg = wordwrap($msg, 70);
-    $sent = mail("contact@phpessex.com", "PHP Essex Website Enquiry", $msg);
+    $sent = mail('contact@phpessex.com', 'PHP Essex Website Enquiry', $msg, $headers, '-fcontact@phpessex.com');
 
     if ($sent) {
         $alert = '<div class="col-lg-12"><div class="alert alert-success text-center" role="alert"><strong>Thank you!</strong> We appreciate '
@@ -61,21 +63,21 @@ if (isset($_POST['save']) && 'contact' == $_POST['save']) {
                     <form role="form" method="post">
                         <div class="row">
                             <div class="form-group col-lg-4">
-                                <label>Name</label>
-                                <input type="text" class="form-control" required="required" />
+                                <label for="name">Name</label>
+                                <input name="name" id="name" type="text" class="form-control" required="required" />
                             </div>
                             <div class="form-group col-lg-4">
-                                <label>Email Address</label>
-                                <input type="email" class="form-control" required="required" />
+                                <label for="email">Email Address</label>
+                                <input name="email" id="email" type="email" class="form-control" required="required" />
                             </div>
                             <div class="form-group col-lg-4">
-                                <label>Phone Number</label>
-                                <input type="tel" class="form-control" required="required" />
+                                <label for="phone">Phone Number</label>
+                                <input name="phone" id="phone" type="tel" class="form-control" required="required" />
                             </div>
                             <div class="clearfix"></div>
                             <div class="form-group col-lg-12">
-                                <label>Message</label>
-                                <textarea class="form-control" rows="6" required="required"></textarea>
+                                <label for="message">Message</label>
+                                <textarea name="message" id="message" class="form-control" rows="6" required="required"></textarea>
                             </div>
                             <div class="form-group col-lg-12">
                                 <input type="hidden" name="save" value="contact">

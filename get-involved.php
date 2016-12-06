@@ -22,7 +22,7 @@ require_once('partials/nav.php');
                         <img class="img-responsive img-left" src="img/meetup-logo.png" alt="Meetup logo" id="meetup-logo">
                         <h4>Join our Meetup.com group</h4>
                         <p>Stay up-to-date with announcements from PHP Essex and help us track meetup attendance by
-                            joining the <a href="https://meetup.com/PHP-Essex">PHP Essex group on meetup.com</a>.
+                            joining the <a href="https://www.meetup.com/PHP-Essex">PHP Essex group on meetup.com</a>.
                         </p>
                     </div>
 

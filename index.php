@@ -27,7 +27,7 @@ require_once('partials/nav.php');
                     <p>Our goal is to emulate the success of other PHP user groups and build a PHP community in Essex.</p>
 
                     <p>You'll find all the information you need for our upcoming meetups here or on the
-                        <a href="https://meetup.com/PHP-Essex">PHP Essex Meetup page</a>.</p>
+                        <a href="https://www.meetup.com/PHP-Essex">PHP Essex Meetup page</a>.</p>
                 </div>
             </div>
         </div>

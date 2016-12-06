@@ -33,5 +33,5 @@
 
 <body>
 
-<div class="brand"><img src="/img/php-essex2-alt-med.png" alt="PHP Essex User Group" /></div>
+<div class="brand"><img src="/img/php-essex-alt-med.png" alt="PHP Essex User Group" /></div>
 <div class="tag-line">Bringing the PHP developers of Essex together</div>

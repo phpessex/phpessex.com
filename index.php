@@ -38,7 +38,7 @@ require_once('partials/nav.php');
                     <hr>
                     <h2 class="intro-text text-center">Thanks To <strong>Our Sponsors</strong></h2>
                     <hr>
-                    <a href="http://www.invitial.com/"><img id="sponsor-invitial" class="img-responsive" src="img/sponsors/Invitial.png" alt="Invitial" /></a>
+                    <a href="https://www.invitial.com/"><img id="sponsor-invitial" class="img-responsive" src="img/sponsors/Invitial.png" alt="Invitial" /></a>
                 </div>
             </div>
         </div>

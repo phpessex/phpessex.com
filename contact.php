@@ -12,7 +12,7 @@ if (isset($_POST['save']) && 'contact' == $_POST['save']) {
         'X-Mailer: PHP/' . phpversion();
 
     // set up email
-    $msg = "New contact form submission!\nName: " . $name . "\nEmail: " . $email . "\nPhone: " . $phone . "\nEmail: " . $email;
+    $msg = "New contact form submission!\nName: " . $name . "\nEmail: " . $email . "\nPhone: " . $phone . "\n\nMessage: " . $message;
     $msg = wordwrap($msg, 70);
     $sent = mail('contact@phpessex.com', 'PHP Essex Website Enquiry', $msg, $headers, '-fcontact@phpessex.com');
 

@@ -21,7 +21,7 @@ require_once('partials/nav.php');
                         We are hoping that the first meetup will be in January or February. We hope to find a date and
                         location that is convenient for everybody so please head over to our meetup page and help us
                         determine the date and location.</p>
-                    <!--<a href="#" class="btn btn-default btn-lg">Read More</a>-->
+                    <a href="https://www.meetup.com/PHP-Essex/events/236064510/" class="btn btn-default btn-lg meetup-btn">View on Meetup.com</a>
                     <hr>
                 </div>
                 <!--<br class="clearfix" /><br /><br /><br />-->

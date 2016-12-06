@@ -239,3 +239,21 @@ footer p {
     margin: 12px 0;
     text-align: center;
 }
+
+.meetup-btn {
+    margin-top: 15px;
+}
+
+#sponsors img {
+    margin: 30px auto 0px auto;
+}
+
+#sponsor-invitial {
+    image-rendering: optimizeSpeed;             /*                     */
+    image-rendering: -moz-crisp-edges;          /* Firefox             */
+    image-rendering: -o-crisp-edges;            /* Opera               */
+    image-rendering: -webkit-optimize-contrast; /* Chrome (and Safari) */
+    image-rendering: optimize-contrast;         /* CSS3 Proposed       */
+    -ms-interpolation-mode: nearest-neighbor;
+    width: 250px;
+}

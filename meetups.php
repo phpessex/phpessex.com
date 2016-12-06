@@ -18,7 +18,7 @@ require_once('partials/nav.php');
                         <small>7:30pm | Wednesday 18th January 2017</small>
                     </h2>
                     <p>This meetup is still being organised, the date, time and location are still to be confirmed.
-                        We are hoping that the first meetup will be in January or February. We hope to find a date and
+                        We are hoping that the first meetup will be in January. We hope to find a date and
                         location that is convenient for everybody so please head over to our meetup page and help us
                         determine the date and location.</p>
                     <a href="https://www.meetup.com/PHP-Essex/events/236064510/" class="btn btn-default btn-lg meetup-btn">View on Meetup.com</a>

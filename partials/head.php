@@ -6,8 +6,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="PHP Essex - PHP User Group in Essex">
+    <meta name="description" content="The PHP Essex User Group has been set up as a way for like-minded developers to get to know each other, network and share our knowledge. Our monthly meets are informal and we welcome developers of any skill level, from beginners to experts, we&#039;d love to meet you!">
     <meta name="author" content="">
+    <meta property="og:title" content="PHP Essex - PHP User Group in Essex"/>
+    <meta property="og:image" content="http://www.phpessex.com/img/php-essex-large.png"/>
+    <meta property="og:description" content="The PHP Essex User Group has been set up as a way for like-minded developers to get to know each other, network and share our knowledge. Our monthly meets are informal and we welcome developers of any skill level, from beginners to experts, we&#039;d love to meet you!"/>
+    <meta property="og:url" content="http://www.phpessex.com/" />
 
     <title>PHP Essex - PHP User Group in Essex</title>
 

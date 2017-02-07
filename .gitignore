@@ -2,4 +2,5 @@
 .idea
 logo
 vendor/
-/constants.php
+constants.php
+composer.phar

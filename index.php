@@ -6,6 +6,15 @@ require_once('partials/nav.php');
 
         <div class="row">
             <div class="box">
+                <div class="col-lg-12 text-center">
+                    <h2 class="text-dcenter">February 17<sup>th</sup> - Jenkins CI</h2>
+                    <p><a href="/meetups.php">TELL ME MORE</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="box">
                 <div class="col-lg-12">
                     <hr>
                     <h2 class="intro-text text-center">About <strong>PHP Essex</strong></h2>
@@ -38,7 +47,10 @@ require_once('partials/nav.php');
                     <hr>
                     <h2 class="intro-text text-center">Thanks To <strong>Our Sponsors</strong></h2>
                     <hr>
-                    <a href="https://www.invitial.com/"><img id="sponsor-invitial" class="img-responsive" src="img/sponsors/Invitial.png" alt="Invitial" /></a>
+                    <p class="text-center">
+                        <a href="https://www.invitial.com/"><img id="sponsor-invitial" class="img-responsive" src="img/sponsors/Invitial.png" alt="Invitial" /></a>
+                        Invitial kindly pay the PHP Essex meetup.com subscription.
+                    </p>
                 </div>
             </div>
         </div>

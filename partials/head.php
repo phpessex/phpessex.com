@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -36,6 +34,12 @@
 
     <!-- Font Awesome -->
     <script src="https://use.fontawesome.com/4f066b2f86.js"></script>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
 
     <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="57x57" href="/img/favicon/apple-icon-57x57.png">

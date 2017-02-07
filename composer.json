@@ -1,0 +1,15 @@
+{
+  "name": "phpessex/phpessex.com",
+  "description": "phpessex.com",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Andy Hunt",
+      "email": "contact@phpessex.com"
+    }
+  ],
+  "require": {
+    "google/recaptcha": "1.1.2"
+  }
+}

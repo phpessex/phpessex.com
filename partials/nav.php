@@ -27,6 +27,9 @@
                 <li>
                     <a href="/contact.php">Contact</a>
                 </li>
+                <li>
+                    <a href="/slack-invite.php">Slack</a>
+                </li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->

@@ -12,27 +12,29 @@ require_once('partials/nav.php');
                     <hr>
                 </div>
                 <div class="col-lg-12 text-center">
-                    <!--<img class="img-responsive img-border" src="img/img1.jpg" alt="">-->
-                    <h2>First Meetup
+                    <h2>February - Jenkins CI
+                        <br>
+                        <small>7:30pm | Wednesday 22nd February 2017</small>
+                    </h2>
+                    <p>After a successful first Meetup, we hope you join us for the groups second meeting. This time they'll be one or two short talks followed by a social. They'll also be some snacks in the interval for those that skipped dinner!</p>
+                    <p>Talks:
+                    <dl><dt>Jenkins CI - Lewis Cowles</dt></dl></p>
+                    <a href="https://www.meetup.com/PHP-Essex/events/237380676/" class="btn btn-default btn-lg meetup-btn">View on Meetup.com</a>
+                </div>
+                <br class="clearfix" /><br /><br /><br /><br />
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">Past <strong>Meetups</strong></h2>
+                    <hr>
+                </div>
+                <div class="col-lg-12 text-center">
+                    <h2 class="intro-text text-center">First Meetup
                         <br>
                         <small>7:30pm | Wednesday 18th January 2017</small>
                     </h2>
-                    <p>This meetup is still being organised, the date, time and location are still to be confirmed.
-                        We are hoping that the first meetup will be in January. We hope to find a date and
-                        location that is convenient for everybody so please head over to our meetup page and help us
-                        determine the date and location.</p>
-                    <a href="https://www.meetup.com/PHP-Essex/events/236064510/" class="btn btn-default btn-lg meetup-btn">View on Meetup.com</a>
-                    <hr>
+                    <p>Meet and greet for all the new members. A social gathering in a pub to get to know each other.</p>
+                    <a href="https://www.meetup.com/PHP-Essex/events/236064510/" class="btn btn-default meetup-btn">View on Meetup.com</a>
                 </div>
-                <!--<br class="clearfix" /><br /><br /><br />-->
-                <!--<div class="col-lg-12">-->
-                <!--    <hr>-->
-                <!--    <h2 class="intro-text text-center">Past <strong>Meetups</strong></h2>-->
-                <!--    <hr>-->
-                <!--</div>-->
-                <!--<div class="col-lg-12">-->
-                <!--    <h2 class="intro-text text-center">Coming Soon</h2>-->
-                <!--</div>-->
                 <!--<div class="col-lg-12 text-center">-->
                 <!--    <ul class="pager">-->
                 <!--        <li class="previous"><a href="#">&larr; Older</a>-->

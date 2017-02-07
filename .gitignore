@@ -2,3 +2,4 @@
 .idea
 logo
 vendor/
+/constants.php

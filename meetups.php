@@ -12,14 +12,12 @@ require_once('partials/nav.php');
                     <hr>
                 </div>
                 <div class="col-lg-12 text-center">
-                    <h2>February - Jenkins CI
+                    <h2>April - An Introduction to MongoDB by Derick Rethans
                         <br>
-                        <small>7:30pm | Wednesday 22nd February 2017</small>
+                        <small>7:30pm | Wednesday 19th April 2017</small>
                     </h2>
-                    <p>After a successful first Meetup, we hope you join us for the groups second meeting. This time they'll be one or two short talks followed by a social. They'll also be some snacks in the interval for those that skipped dinner!</p>
-                    <p>Talks:
-                    <dl><dt>Jenkins CI - Lewis Cowles</dt></dl></p>
-                    <a href="https://www.meetup.com/PHP-Essex/events/237380676/" class="btn btn-default btn-lg meetup-btn">View on Meetup.com</a>
+                    <p>This month PHP Essex welcomes Derick Rethans as guest speaker. Derick has kindly agreed to do his An introduction to MongoDB talk. Derick is currently working at MongoDB as maintainer of the PHP MongoDB driver and is a PHP internals expert who has contributed lots to the PHP community including the awesome Xdebug debugging tool.</p>
+                    <a href="https://www.meetup.com/PHP-Essex/events/237902181/" class="btn btn-default btn-lg meetup-btn">View on Meetup.com</a>
                 </div>
                 <br class="clearfix" /><br /><br /><br /><br />
                 <div class="col-lg-12">
@@ -28,11 +26,24 @@ require_once('partials/nav.php');
                     <hr>
                 </div>
                 <div class="col-lg-12 text-center">
+                    <h2 class="intro-text text-center"><del>March - Introduction to Kanban by Jez Halford</del> - CANCELLED
+                        <br>
+                        <small>Wednesday 22nd March 2017</small>
+                    </h2>
+                    <a href="https://www.meetup.com/PHP-Essex/events/237451534/" class="btn btn-default meetup-btn">View on Meetup.com</a>
+                </div>
+                <div class="col-lg-12 text-center">
+                    <h2 class="intro-text text-center">February - Debugging by Andy Hunt
+                        <br>
+                        <small>Wednesday 22nd February 2017</small>
+                    </h2>
+                    <a href="https://www.meetup.com/PHP-Essex/events/237380676/" class="btn btn-default meetup-btn">View on Meetup.com</a>
+                </div>
+                <div class="col-lg-12 text-center">
                     <h2 class="intro-text text-center">First Meetup
                         <br>
-                        <small>7:30pm | Wednesday 18th January 2017</small>
+                        <small>Wednesday 18th January 2017</small>
                     </h2>
-                    <p>Meet and greet for all the new members. A social gathering in a pub to get to know each other.</p>
                     <a href="https://www.meetup.com/PHP-Essex/events/236064510/" class="btn btn-default meetup-btn">View on Meetup.com</a>
                 </div>
                 <!--<div class="col-lg-12 text-center">-->

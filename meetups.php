@@ -12,18 +12,42 @@ require_once('partials/nav.php');
                     <hr>
                 </div>
                 <div class="col-lg-12 text-center">
-                    <h2>April - An Introduction to MongoDB by Derick Rethans
+                    <h2>July - What is Test Driven Development by Andy C. Knight
                         <br>
-                        <small>7:30pm | Wednesday 19th April 2017</small>
+                        <small>7:30pm | Wednesday 19th June 2017</small>
                     </h2>
-                    <p>This month PHP Essex welcomes Derick Rethans as guest speaker. Derick has kindly agreed to do his An introduction to MongoDB talk. Derick is currently working at MongoDB as maintainer of the PHP MongoDB driver and is a PHP internals expert who has contributed lots to the PHP community including the awesome Xdebug debugging tool.</p>
-                    <a href="https://www.meetup.com/PHP-Essex/events/237902181/" class="btn btn-default btn-lg meetup-btn">View on Meetup.com</a>
+                    <p>Come to the July meetup and hear from Andy C. Knight where he will be talking about TDD with PHPUnit:</p>
+                    <p>What is Test Driven Development?</p>
+
+                    <p>The what, why and how of TDD, from beginner to intermediate level. Introduction and insights from real world use of this development process over the last 18 months along with Laravel at a small internet business.</p>
+                    <a href="https://www.meetup.com/PHP-Essex/events/240964786/" class="btn btn-default btn-lg meetup-btn">View on Meetup.com</a>
                 </div>
                 <br class="clearfix" /><br /><br /><br /><br />
                 <div class="col-lg-12">
                     <hr>
                     <h2 class="intro-text text-center">Past <strong>Meetups</strong></h2>
                     <hr>
+                </div>
+                <div class="col-lg-12 text-center">
+                    <h2 class="intro-text text-center">June - Introduction to Kanban by Jez Halford
+                        <br>
+                        <small>Wednesday 21st June 2017</small>
+                    </h2>
+                    <a href="https://www.meetup.com/PHP-Essex/events/239483360/" class="btn btn-default meetup-btn">View on Meetup.com</a>
+                </div>
+                <div class="col-lg-12 text-center">
+                    <h2 class="intro-text text-center">May - Content Security Policies by Matt Brunt
+                        <br>
+                        <small>Wednesday 17th May 2017</small>
+                    </h2>
+                    <a href="https://www.meetup.com/PHP-Essex/events/237510253/" class="btn btn-default meetup-btn">View on Meetup.com</a>
+                </div>
+                <div class="col-lg-12 text-center">
+                    <h2 class="intro-text text-center">April - An Introduction To MongoDB by Derick Rethans
+                        <br>
+                        <small>Wednesday 19th April 2017</small>
+                    </h2>
+                    <a href="https://www.meetup.com/PHP-Essex/events/237902181/" class="btn btn-default meetup-btn">View on Meetup.com</a>
                 </div>
                 <div class="col-lg-12 text-center">
                     <h2 class="intro-text text-center"><del>March - Introduction to Kanban by Jez Halford</del> - CANCELLED

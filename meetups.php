@@ -12,21 +12,26 @@ require_once('partials/nav.php');
                     <hr>
                 </div>
                 <div class="col-lg-12 text-center">
-                    <h2>July - What is Test Driven Development by Andy C. Knight
+                    <h2>August - Vue.js by Mike Gatward
                         <br>
-                        <small>7:30pm | Wednesday 19th June 2017</small>
+                        <small>7:30pm | Wednesday 16th August 2017</small>
                     </h2>
-                    <p>Come to the July meetup and hear from Andy C. Knight where he will be talking about TDD with PHPUnit:</p>
-                    <p>What is Test Driven Development?</p>
+                    <p>For the August meetup we have PHP Essex member Mike Gatward (@mikeaag) talking about Vue.js.</p>
 
-                    <p>The what, why and how of TDD, from beginner to intermediate level. Introduction and insights from real world use of this development process over the last 18 months along with Laravel at a small internet business.</p>
-                    <a href="https://www.meetup.com/PHP-Essex/events/240964786/" class="btn btn-default btn-lg meetup-btn">View on Meetup.com</a>
+                    <a href="https://www.meetup.com/PHP-Essex/events/241016855/" class="btn btn-default btn-lg meetup-btn">View on Meetup.com</a>
                 </div>
                 <br class="clearfix" /><br /><br /><br /><br />
                 <div class="col-lg-12">
                     <hr>
                     <h2 class="intro-text text-center">Past <strong>Meetups</strong></h2>
                     <hr>
+                </div>
+                <div class="col-lg-12 text-center">
+                    <h2 class="intro-text text-center">July - What is Test Driven Development by Andy C. Knight
+                        <br>
+                        <small>Wednesday 19th July 2017</small>
+                    </h2>
+                    <a href="https://www.meetup.com/PHP-Essex/events/240964786/" class="btn btn-default meetup-btn">View on Meetup.com</a>
                 </div>
                 <div class="col-lg-12 text-center">
                     <h2 class="intro-text text-center">June - Introduction to Kanban by Jez Halford

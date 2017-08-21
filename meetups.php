@@ -12,19 +12,26 @@ require_once('partials/nav.php');
                     <hr>
                 </div>
                 <div class="col-lg-12 text-center">
-                    <h2>August - Vue.js by Mike Gatward
+                    <h2>September - PhPipelines In The Wild by Luis Ferro
                         <br>
-                        <small>7:30pm | Wednesday 16th August 2017</small>
+                        <small>7:30pm | Wednesday 20th September 2017</small>
                     </h2>
-                    <p>For the August meetup we have PHP Essex member Mike Gatward (@mikeaag) talking about Vue.js.</p>
+                    <p>For our September meet we have Luis Ferro (@lferro9000) talking about Jenkins 2 Pipelines, more info can be found on Meetup.</p>
 
-                    <a href="https://www.meetup.com/PHP-Essex/events/241016855/" class="btn btn-default btn-lg meetup-btn">View on Meetup.com</a>
+                    <a href="https://www.meetup.com/PHP-Essex/events/241016861/" class="btn btn-default btn-lg meetup-btn">View on Meetup.com</a>
                 </div>
                 <br class="clearfix" /><br /><br /><br /><br />
                 <div class="col-lg-12">
                     <hr>
                     <h2 class="intro-text text-center">Past <strong>Meetups</strong></h2>
                     <hr>
+                </div>
+                <div class="col-lg-12 text-center">
+                    <h2 class="intro-text text-center">August - Vue.js by Mike Gatward
+                        <br>
+                        <small>Wednesday 16th August 2017</small>
+                    </h2>
+                    <a href="https://www.meetup.com/PHP-Essex/events/241016855/" class="btn btn-default meetup-btn">View on Meetup.com</a>
                 </div>
                 <div class="col-lg-12 text-center">
                     <h2 class="intro-text text-center">July - What is Test Driven Development by Andy C. Knight

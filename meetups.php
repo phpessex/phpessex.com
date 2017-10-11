@@ -12,11 +12,11 @@ require_once('partials/nav.php');
                     <hr>
                 </div>
                 <div class="col-lg-12 text-center">
-                    <h2>September - PhPipelines In The Wild by Luis Ferro
+                    <h2>October - Social
                         <br>
-                        <small>7:30pm | Wednesday 20th September 2017</small>
+                        <small>7:30pm | Wednesday 18th October 2017</small>
                     </h2>
-                    <p>For our September meet we have Luis Ferro (@lferro9000) talking about Jenkins 2 Pipelines, more info can be found on Meetup.</p>
+                    <p>The October meetup will be a social event, a chance to have a catchup with the members.</p>
 
                     <a href="https://www.meetup.com/PHP-Essex/events/241016861/" class="btn btn-default btn-lg meetup-btn">View on Meetup.com</a>
                 </div>
@@ -25,6 +25,13 @@ require_once('partials/nav.php');
                     <hr>
                     <h2 class="intro-text text-center">Past <strong>Meetups</strong></h2>
                     <hr>
+                </div>
+                <div class="col-lg-12 text-center">
+                    <h2 class="intro-text text-center">September - PhPipelines In The Wild by Luis Ferro
+                        <br>
+                        <small>Wednesday 20th September 2017</small>
+                    </h2>
+                    <a href="https://www.meetup.com/PHP-Essex/events/241016861/" class="btn btn-default meetup-btn">View on Meetup.com</a>
                 </div>
                 <div class="col-lg-12 text-center">
                     <h2 class="intro-text text-center">August - Vue.js by Mike Gatward

@@ -7,7 +7,7 @@ require_once('partials/nav.php');
         <div class="row">
             <div class="box">
                 <div class="col-lg-12 text-center">
-                    <h2 class="text-dcenter">September 20<sup>th</sup> - PhPipelines In The Wild by Luis Ferro</h2>
+                    <h2 class="text-dcenter">October 18<sup>th</sup> - Social</h2>
                     <p><a href="/meetups.php">TELL ME MORE</a></p>
                 </div>
             </div>

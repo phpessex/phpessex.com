@@ -12,19 +12,26 @@ require_once('partials/nav.php');
                     <hr>
                 </div>
                 <div class="col-lg-12 text-center">
-                    <h2>November - Bitcoin, Crypto Currencies and Blockchain by Brian Jones
+                    <h2>December - Festive Pub Meet-up
                         <br>
-                        <small>7:30pm | Wednesday 22nd November 2017</small>
+                        <small>7:00pm | Wednesday 20th December 2017</small>
                     </h2>
-                    <p>This month come and hear about Bitcoin, Crypto Currencies and Blockchain from Brian Jones.</p>
+                    <p>As its just before Christmas the December meetup will be a social gathering at the pub for a few festive ales/soft drinks and geeky chat. Hope to see you there!.</p>
 
-                    <a href="https://www.meetup.com/PHP-Essex/events/241016885/" class="btn btn-default btn-lg meetup-btn">View on Meetup.com</a>
+                    <a href="https://www.meetup.com/PHP-Essex/events/241016889/" class="btn btn-default btn-lg meetup-btn">View on Meetup.com</a>
                 </div>
                 <br class="clearfix" /><br /><br /><br /><br />
                 <div class="col-lg-12">
                     <hr>
                     <h2 class="intro-text text-center">Past <strong>Meetups</strong></h2>
                     <hr>
+                </div>
+                <div class="col-lg-12 text-center">
+                    <h2 class="intro-text text-center">November - Bitcoin, Crypto Currencies and Blockchain by Brian Jones
+                        <br>
+                        <small>Wednesday 22nd November 2017</small>
+                    </h2>
+                    <a href="https://www.meetup.com/PHP-Essex/events/241016885/" class="btn btn-default meetup-btn">View on Meetup.com</a>
                 </div>
                 <div class="col-lg-12 text-center">
                     <h2 class="intro-text text-center"><del>October - Social</del> - CANCELLED

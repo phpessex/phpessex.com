@@ -12,19 +12,26 @@ require_once('partials/nav.php');
                     <hr>
                 </div>
                 <div class="col-lg-12 text-center">
-                    <h2>December - Festive Pub Meet-up
+                    <h2>January - Single Sign-On, Social Logins & Laravel<br />By Andy C. Knight
                         <br>
-                        <small>7:00pm | Wednesday 20th December 2017</small>
+                        <small>7:00pm | Wednesday 17th January 2018</small>
                     </h2>
-                    <p>As its just before Christmas the December meetup will be a social gathering at the pub for a few festive ales/soft drinks and geeky chat. Hope to see you there!.</p>
-
-                    <a href="https://www.meetup.com/PHP-Essex/events/241016889/" class="btn btn-default btn-lg meetup-btn">View on Meetup.com</a>
+                    <p>Andy C. Knight gives an overview of the approaches for single sign-on solutions across multiple domains, for both traditional request-response websites and single page apps.</p>
+                    <p>Featuring a test-driven production implementation for a small Internet company built with the Laravel framework. Also including OAuth 2 social logins - log in with your Google or Facebook account.</p>
+                    <a href="https://www.meetup.com/PHP-Essex/events/cbcjxmyxcbwb/" class="btn btn-default btn-lg meetup-btn">View on Meetup.com</a>
                 </div>
                 <br class="clearfix" /><br /><br /><br /><br />
                 <div class="col-lg-12">
                     <hr>
                     <h2 class="intro-text text-center">Past <strong>Meetups</strong></h2>
                     <hr>
+                </div>
+                <div class="col-lg-12 text-center">
+                    <h2 class="intro-text text-center">December - Festive Pub Meet-up
+                        <br>
+                        <small>Wednesday 20th December 2017</small>
+                    </h2>
+                    <a href="https://www.meetup.com/PHP-Essex/events/241016885/" class="btn btn-default meetup-btn">View on Meetup.com</a>
                 </div>
                 <div class="col-lg-12 text-center">
                     <h2 class="intro-text text-center">November - Bitcoin, Crypto Currencies and Blockchain by Brian Jones

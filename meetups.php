@@ -12,19 +12,26 @@ require_once('partials/nav.php');
                     <hr>
                 </div>
                 <div class="col-lg-12 text-center">
-                    <h2>January - Single Sign-On, Social Logins & Laravel<br />By Andy C. Knight
+                    <h2>February - Designing Docker Images For PHP Apps<br />By Stuart Herbert
                         <br>
-                        <small>7:00pm | Wednesday 17th January 2018</small>
+                        <small>7:30pm | Wednesday 21st February 2018</small>
                     </h2>
-                    <p>Andy C. Knight gives an overview of the approaches for single sign-on solutions across multiple domains, for both traditional request-response websites and single page apps.</p>
-                    <p>Featuring a test-driven production implementation for a small Internet company built with the Laravel framework. Also including OAuth 2 social logins - log in with your Google or Facebook account.</p>
-                    <a href="https://www.meetup.com/PHP-Essex/events/cbcjxmyxcbwb/" class="btn btn-default btn-lg meetup-btn">View on Meetup.com</a>
+                    <p>Containers in general - and Docker in particular - are hot tech. Not only are they a great replacement for many roles where we'd normally use a virtual machine, but they're also a great way to distribute applications along the pipeline from dev to test to production. And they're great for running PHP web-based apps!</p>
+                    <p>In this talk, Stuart will show you how he designs Docker images that can be used to run PHP-based web applications in dev, test and in production. He'll walk through why dev Docker images are different to test/production images, and how to easily convert a dev Docker image into a test/production image without undermining the whole point of using Docker in the first place.</p>
+                    <a href="https://www.meetup.com/PHP-Essex/events/246942538/" class="btn btn-default btn-lg meetup-btn">View on Meetup.com</a>
                 </div>
                 <br class="clearfix" /><br /><br /><br /><br />
                 <div class="col-lg-12">
                     <hr>
                     <h2 class="intro-text text-center">Past <strong>Meetups</strong></h2>
                     <hr>
+                </div>
+                <div class="col-lg-12 text-center">
+                    <h2 class="intro-text text-center">January - Single Sign-On, Social Logins & Laravel By Andy C. Knight
+                        <br>
+                        <small>Wednesday 17th January 2018</small>
+                    </h2>
+                    <a href="https://www.meetup.com/PHP-Essex/events/cbcjxmyxcbwb/" class="btn btn-default meetup-btn">View on Meetup.com</a>
                 </div>
                 <div class="col-lg-12 text-center">
                     <h2 class="intro-text text-center">December - Festive Pub Meet-up

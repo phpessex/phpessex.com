@@ -12,18 +12,47 @@ require_once('partials/nav.php');
                     <hr>
                 </div>
                 <div class="col-lg-12 text-center">
-                    <h2>March - Introduction to Laravel By Mike Gateward
+                    <h2>July - Craft CMS with Jamie Wade
                         <br>
-                        <small>7:30pm | Wednesday 21st March 2018</small>
+                        <small>7:30pm | Wednesday 18th March 2018</small>
                     </h2>
-                    <p>Join us and learn about Laravel.</p>
-                    <a href="https://www.meetup.com/PHP-Essex/events/248092762/" class="btn btn-default btn-lg meetup-btn">View on Meetup.com</a>
+                    <p>Jamie is a Front-end Developer at Chelmsford based design agency Enovate.</p>
+                    <p>Jamie will be giving a presentation on Craft CMS from his perspective, and how he and the team at Enovate tackle website builds using the CMS from start to finish.</p>
+                    <a href="https://www.meetup.com/PHP-Essex/events/sjvngpyxkbxb/" class="btn btn-default btn-lg meetup-btn">View on Meetup.com</a>
                 </div>
                 <br class="clearfix" /><br /><br /><br /><br />
                 <div class="col-lg-12">
                     <hr>
                     <h2 class="intro-text text-center">Past <strong>Meetups</strong></h2>
                     <hr>
+                </div>
+                <div class="col-lg-12 text-center">
+                    <h2 class="intro-text text-center"><del>June - AWS & Hosting Tales from the Front Lines with Michael Walsh</del> - CANCELLED
+                        <br>
+                        <small>Wednesday 20th June 2018</small>
+                    </h2>
+                    <a href="https://www.meetup.com/PHP-Essex/events/250588232/" class="btn btn-default meetup-btn">View on Meetup.com</a>
+                </div>
+                <div class="col-lg-12 text-center">
+                    <h2 class="intro-text text-center">May - Social
+                        <br>
+                        <small>Wednesday 16th May 2018</small>
+                    </h2>
+                    <a href="https://www.meetup.com/PHP-Essex/events/sjvngpyxhbvb/" class="btn btn-default meetup-btn">View on Meetup.com</a>
+                </div>
+                <div class="col-lg-12 text-center">
+                    <h2 class="intro-text text-center">April - Lightning talks By Mike Gatward & Andy Hunt
+                        <br>
+                        <small>Wednesday 18th April 2018</small>
+                    </h2>
+                    <a href="https://www.meetup.com/PHP-Essex/events/sjvngpyxgbxb/" class="btn btn-default meetup-btn">View on Meetup.com</a>
+                </div>
+                <div class="col-lg-12 text-center">
+                    <h2 class="intro-text text-center">March - An Introduction to Laravel By Mike Gatward
+                        <br>
+                        <small>Wednesday 21st March 2018</small>
+                    </h2>
+                    <a href="https://www.meetup.com/PHP-Essex/events/sjvngpyxfbcc/" class="btn btn-default meetup-btn">View on Meetup.com</a>
                 </div>
                 <div class="col-lg-12 text-center">
                     <h2 class="intro-text text-center">February - Designing Docker Images For PHP Apps By Stuart Herbert

@@ -1,27 +1,43 @@
 <?php
 require_once('partials/head.php');
 require_once('partials/nav.php');
+include "constants.php";
 
-if (isset($_POST['save']) && 'contact' == $_POST['save']) {
-    // Receive and sanitize input
-    $name    = $_POST['name'];
-    $email   = $_POST['email'];
-    $phone   = $_POST['phone'];
-    $message = $_POST['message'];
-    $headers = 'From: contact@phpessex.com' . "\r\n" . 'Reply-To: contact@phpessex.com' . "\r\n" .
-        'X-Mailer: PHP/' . phpversion();
+if (isset($_POST['save']) && 'contact' === $_POST['save']) {
+    require __DIR__ . '/vendor/autoload.php';
 
-    // set up email
-    $msg = "New message from PHPEssex.com!\n\nName: " . $name . "\nEmail: " . $email . "\nPhone: " . $phone . "\n\nMessage:\n\n" . $message;
-    $msg = wordwrap($msg, 70);
-    $sent = mail('contact@phpessex.com', 'PHP Essex Website Enquiry', $msg, $headers, '-fcontact@phpessex.com');
+    $recaptcha = new \ReCaptcha\ReCaptcha(SECRET, new \ReCaptcha\RequestMethod\CurlPost());
 
-    if ($sent) {
-        $alert = '<div class="col-lg-12"><div class="alert alert-success text-center" role="alert"><strong>Thank you!</strong> We appreciate '
-               . 'you taking the time to contact us.</div></div>';
+    $gRecaptchaResponse = @$_POST['g-recaptcha-response'];
+    $remoteIp           = @$_SERVER['REMOTE_ADDR'];
+
+    $resp = $recaptcha->verify($gRecaptchaResponse, $remoteIp);
+    $captchaSuccess = $resp->isSuccess();
+
+    if (!$captchaSuccess) {
+        $alert = '<div class="col-lg-12"><div class="alert alert-danger text-center" role="alert"><strong>Error!</strong> ReCapture verification ' .
+            'failed, please try again.</div></div>';
     } else {
-        $alert = '<div class="col-lg-12"><div class="alert alert-danger text-center" role="alert"><strong>Error!</strong> We are sorry but we '
-               . 'could not pass on your message at this time.</div></div>';
+        // Receive and sanitize input
+        $name    = $_POST['name'];
+        $email   = $_POST['email'];
+        $phone   = $_POST['phone'];
+        $message = $_POST['message'];
+        $headers = 'From: contact@phpessex.com' . "\r\n" . 'Reply-To: contact@phpessex.com' . "\r\n" .
+            'X-Mailer: PHP/' . phpversion();
+
+        // set up email
+        $msg = "New message from PHPEssex.com!\n\nName: " . $name . "\nEmail: " . $email . "\nPhone: " . $phone . "\n\nMessage:\n\n" . $message;
+        $msg = wordwrap($msg, 70);
+        $sent = mail('contact@phpessex.com', 'PHP Essex Website Enquiry', $msg, $headers, '-fcontact@phpessex.com');
+
+        if ($sent) {
+            $alert = '<div class="col-lg-12"><div class="alert alert-success text-center" role="alert"><strong>Thank you!</strong> We appreciate '
+                   . 'you taking the time to contact us.</div></div>';
+        } else {
+            $alert = '<div class="col-lg-12"><div class="alert alert-danger text-center" role="alert"><strong>Error!</strong> We are sorry but we '
+                   . 'could not pass on your message at this time.</div></div>';
+        }
     }
 }
 ?>
@@ -81,8 +97,11 @@ if (isset($_POST['save']) && 'contact' == $_POST['save']) {
                                 <textarea name="message" id="message" class="form-control" rows="6" required="required"></textarea>
                             </div>
                             <div class="form-group col-lg-12">
+                                <div style="margin: 10px 0; width: 305px;" class="g-recaptcha" data-sitekey="<?php echo SITEKEY; ?>"></div>
+                            </div>
+                            <div class="form-group col-lg-12">
                                 <input type="hidden" name="save" value="contact">
-                                <button type="submit" class="btn btn-default">Submit</button>
+                                <input type="submit" class="btn btn-default" value="Submit" />
                             </div>
                         </div>
                     </form>
@@ -112,5 +131,7 @@ if (isset($_POST['save']) && 'contact' == $_POST['save']) {
 
     </div>
     <!-- /.container -->
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <?php
 require_once('partials/footer.php');

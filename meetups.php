@@ -6,6 +6,11 @@ require_once('partials/nav.php');
 
         <div class="row">
             <div class="box">
+                <div class="col-lg-12 text-center">
+                    <h2>This page is no longer updated</h2>
+                    <a href="https://www.meetup.com/PHP-Essex/events/" class="btn btn-default btn-lg meetup-btn">Go To Meetup.com</a>
+                </div>
+                <br class="clearfix" /><br /><br />
                 <div class="col-lg-12">
                     <hr>
                     <h2 class="intro-text text-center">Next <strong>Meetup</strong></h2>

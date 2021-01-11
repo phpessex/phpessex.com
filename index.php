@@ -7,8 +7,10 @@ require_once('partials/nav.php');
         <div class="row">
             <div class="box">
                 <div class="col-lg-12 text-center">
-                    <h2 class="text-dcenter">July 18<sup>th</sup> - Craft CMS with Jamie Wade</h2>
-                    <p><a href="/meetups.php">TELL ME MORE</a></p>
+                    <h2 class="text-center">For the latest info visit the Meetup page</h2>
+                    <p>
+                        <a href="https://www.meetup.com/PHP-Essex/" class="btn btn-default btn-lg meetup-btn">Go To Meetup.com</a>
+                    </p>
                 </div>
             </div>
         </div>

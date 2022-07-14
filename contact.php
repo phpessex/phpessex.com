@@ -1,4 +1,8 @@
 <?php
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
+use PHPMailer\PHPMailer\Exception;
+
 require_once('partials/head.php');
 require_once('partials/nav.php');
 include "constants.php";
@@ -23,18 +27,40 @@ if (isset($_POST['save']) && 'contact' === $_POST['save']) {
         $email   = $_POST['email'];
         $phone   = $_POST['phone'];
         $message = $_POST['message'];
-        $headers = 'From: contact@phpessex.com' . "\r\n" . 'Reply-To: contact@phpessex.com' . "\r\n" .
-            'X-Mailer: PHP/' . phpversion();
 
         // set up email
         $msg = "New message from PHPEssex.com!\n\nName: " . $name . "\nEmail: " . $email . "\nPhone: " . $phone . "\n\nMessage:\n\n" . $message;
-        $msg = wordwrap($msg, 70);
-        $sent = mail('contact@phpessex.com', 'PHP Essex Website Enquiry', $msg, $headers, '-fcontact@phpessex.com');
 
-        if ($sent) {
+        //Create an instance; passing `true` enables exceptions
+        $mail = new PHPMailer(true);
+
+        try {
+            //Server settings
+            //$mail->SMTPDebug = SMTP::DEBUG_SERVER;              //Enable verbose debug output
+            $mail->isSMTP();                                    //Send using SMTP
+            $mail->Host       = MAIL_HOST;                      //Set the SMTP server to send through
+            $mail->SMTPAuth   = true;                           //Enable SMTP authentication
+            $mail->Username   = MAIL_USERNAME;                  //SMTP username
+            $mail->Password   = MAIL_PASSWORD;                  //SMTP password
+            $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS; //Enable implicit TLS encryption
+            $mail->Port       = MAIL_PORT;                      //TCP port to connect to
+            $mail->WordWrap   = 70;
+
+            //Recipients
+            $mail->setFrom('contact@phpessex.com');
+            $mail->addAddress('contact@phpessex.com');
+            $mail->addReplyTo('contact@phpessex.com');
+
+            //Content
+            $mail->isHTML(false);
+            $mail->Subject = 'PHP Essex Website Enquiry';
+            $mail->Body    = $msg;
+
+            $mail->send();
+
             $alert = '<div class="col-lg-12"><div class="alert alert-success text-center" role="alert"><strong>Thank you!</strong> We appreciate '
                    . 'you taking the time to contact us.</div></div>';
-        } else {
+        } catch (Exception $e) {
             $alert = '<div class="col-lg-12"><div class="alert alert-danger text-center" role="alert"><strong>Error!</strong> We are sorry but we '
                    . 'could not pass on your message at this time.</div></div>';
         }

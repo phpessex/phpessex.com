@@ -4,3 +4,9 @@ define('TOKEN','<YOUR-API-TOKEN>');
 define('SECRET', '<YOUR-reCAPTCHA-SECRET>');
 define('SITEKEY', '<YOUR-reCAPTCHA-SITEKEY>');
 define('NOTE', '<YOUR-NOTE>');
+
+
+define('MAIL_HOST', '<YOUR-MAIL_HOST>');
+define('MAIL_PORT', '<YOUR-MAIL_PORT>');
+define('MAIL_USERNAME', '<YOUR-MAIL_USERNAME>');
+define('MAIL_PASSWORD', '<YOUR-MAIL_PASSWORD>');
